@@ -1,6 +1,6 @@
 # NBA-MVP-model
 Model to predict a player's MVP vote share based on their box & advanced stats
-🔗 View full report: https://tsepo001.github.io/NBA-MVP-model/
+🔗 View full report: https://tsepo001.github.io/NBA-MVP-model/NBA_model.html
 
 ## Overview
 
