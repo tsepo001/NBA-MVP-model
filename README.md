@@ -1,7 +1,8 @@
-# 🏀 NBA-MVP-model
-Model to predict a player's MVP vote share based on their box &amp; advanced stats
+# NBA-MVP-model
+Model to predict a player's MVP vote share based on their box & advanced stats
+🔗 View full report: https://tsepo001.github.io/NBA-MVP-model/
 
-## 📌 Overview
+## Overview
 
 This project builds and evaluates machine learning models to predict NBA player award outcomes using historical player performance data.
 
@@ -14,7 +15,7 @@ The goal is to demonstrate:
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Can we predict how likely a player is to receive award votes (or award share) based on their season performance?
 
@@ -25,7 +26,7 @@ This is framed as a **supervised learning problem**, where:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset includes:
 
@@ -40,7 +41,7 @@ The dataset includes:
 
 ## ⚙️ Methodology
 
-### 1. Data Preparation
+### Data Preparation
 
 * Handling missing values
 * Feature selection
@@ -49,7 +50,7 @@ The dataset includes:
 
 ---
 
-### 2. Models Implemented
+### Models Implemented
 
 * Linear / Generalized Linear Models
 * Regularized models (e.g. Lasso/Ridge via glmnet)
@@ -58,7 +59,7 @@ The dataset includes:
 
 ---
 
-### 3. Model Evaluation
+### Model Evaluation
 
 Models were evaluated using:
 
@@ -70,7 +71,7 @@ These metrics provide different perspectives on prediction accuracy and robustne
 
 ---
 
-## 📈 Results
+## Results
 
 The models were compared on a held-out test set.
 
@@ -86,7 +87,7 @@ Key observations:
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 
 * Player scoring and efficiency metrics are strong predictors of award outcomes
 * Model performance differences were smaller than expected, suggesting:
@@ -96,7 +97,7 @@ Key observations:
 
 ---
 
-## 🚧 Challenges & Lessons Learned
+## Challenges & Lessons Learned
 
 * Ensuring consistent data structure between training and test sets
 * Debugging model evaluation pipelines
@@ -105,7 +106,7 @@ Key observations:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * R
 * Quarto (.qmd) for reproducible reporting
@@ -117,33 +118,14 @@ Key observations:
 
 ---
 
-## 📁 Repository Structure
 
-```
-├── NBA_model.qmd                # Main analysis and report
-├── nba-award-prediction-report.html  # Rendered report
-├── data/                        # Dataset (if included)
-├── scripts/                     # Supporting scripts (optional)
-└── README.md
-```
-
----
-
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository
 2. Open the `.qmd` file in RStudio
 3. Install required packages
 4. Click **Render**
-
----
-
-## 👤 Author
-
-**Tsepo Patose**
-Data Enthusiast
-
----
+5. 
 
 ## 📌 Final Note
 
